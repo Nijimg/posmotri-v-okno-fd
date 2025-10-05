@@ -284,9 +284,11 @@ input:not(:focus){
 }
 
 button {
+  height: 34px;
   cursor: pointer;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
+  font-weight: 700;
   border: 1px solid #fff;
   color: #fff;
   background-color: transparent;
@@ -295,11 +297,9 @@ button {
 .search-form__submit-button {
   align-self: end;
   width: 194px;
-  height: 34px;
 }
 
 .more-button {
-  height: 34px;
   padding: 5px 0;
 }
 
